@@ -54,7 +54,7 @@ The raw data for this dataset is sourced from the Swedish Medical Products Agenc
 
 -   **Official Source:** [National Substance Register for Medicinal Products (NSL)](https://www.lakemedelsverket.se/en/e-services-and-forms/substance-register-and-product-register/national-substance-register-for-medicinal-products-nsl)
 
-The data was accessed in September 2025. The subsequent processing and structuring into the final hierarchical format was done using R and the Tidyverse.
+The data was accessed in September 2025. The subsequent processing and structuring into the final hierarchical format was done this [XML to JSON converter](https://jsonformatter.org/xml-to-json), DuckDB (to read JSON), and then finally R with Tidyverse tools.
 
 ---
 *This is an unofficial, processed dataset intended for research and development purposes.*
